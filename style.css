@@ -1,0 +1,113 @@
+body{
+
+	h1{
+		color:blue;
+		text-align: center;
+	}
+
+	.main{
+		font: 16px;
+		
+		card{
+		
+			#one{
+				witdth:100%
+				position:
+				
+				.card-title{
+					position:
+				}
+				
+				.info{
+					position:
+					width:
+				}
+			 }
+			 
+			#two{
+				witdth:100%
+				position:
+				
+				.card-title{
+					position:;
+					width:;
+				}
+				
+				.info{
+					position:
+				}
+				
+			}
+			
+			#three{
+				witdth:100%
+				position:
+				
+				.card-title{
+					position:;
+					width:;
+				}
+				
+				.info{
+					position:;
+					width:;
+				}
+				
+			}
+		}
+
+}
+
+Desktop
+@media only screen and and (min-width:992px){
+	#one{
+		width: 32%;
+		padding: .5px;
+	}
+
+	#two{
+		width: 32%;
+		padding: .5px;
+	}
+	
+	#three{
+		width: 32%;
+		padding: .5px;
+	}
+}
+
+Tablet
+@media only screen and and (min-width:768px) and (max-width:991px) {
+	#one{
+		width: 49%;
+		padding: 1px;
+	}
+
+	#two{
+		width: 49%;
+		padding: 1px;
+	}
+	
+	#three{
+		width: 100%;
+		padding: 1px;
+	}
+}
+
+mobile
+@media only screen and and (max-width:767px) {
+	#one{
+		width: 100%;
+		padding: 1px;
+	}
+
+	#two{
+		width: 100%;
+		padding: 1px;
+	}
+	
+	#three{
+		width: 100%;
+		padding: 1px;
+	}
+}
