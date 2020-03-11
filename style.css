@@ -10,8 +10,9 @@ h1{
 }
 	
 
-.main{
-	
+.card{
+	background-color:lightgray;
+	border: 1px solid;
 }
 
 
@@ -46,71 +47,63 @@ h1{
 /*Desktop*/
 @media only screen and (min-width:992px){
 	#one{
-		background-color:lightgray;
-		border: 1px solid;
 		float:left;
 		width: 32%;
-		height: 225px;
+		height: auto;
 		margin:5px;
-		.card-title{
-			background-color:salmon;
-		}
 	}
 
 	#two{
-		background-color:lightgray;
-				border: 1px solid;
 		float:left;
 		width: 32%;
-		height: 225px;
-				margin:5px;
+		height: auto;
+		margin:5px;
 	}
 	
 	#three{
-		background-color:lightgray;
-				border: 1px solid;
 		float: left;
 		width: 32%;
-		height: 225px;
-				margin:5px;
+		height: auto;
+		margin:5px;
 	}
 }
 
 /*Tablet*/
 @media only screen and (min-width:768px) and (max-width:991px) {
 	#one{
-		background-color:gray;
 		float:left;
 		width: 49%;
-		padding: 1px;
+		
 	}
 
 	#two{
 		float: right;
 		width: 49%;
-		padding: 1px;
+	
 	}
 	
 	#three{
-		width: 100%;
-		padding: 1px;
+		width: auto;
+		margin-top: 25px;
+		float: right;
+		
 	}
 }
 
 /*Mobile*/
 @media only screen and (max-width:767px) {
 	#one{
-		width: 100%;
-		padding: 1px;
+		width: auto;
+		margin: 25px 10px 25px 10px;
 	}
 
 	#two{
-		width: 100%;
-		padding: 1px;
+		width: auto;
+		margin: 25px 10px 25px 10px;
 	}
 	
 	#three{
-		width: 100%;
-		padding: 1px;
+		width: auto;
+		margin: 25px 10px 25px 10px;
 	}
 }
